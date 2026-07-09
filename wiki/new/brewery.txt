@@ -1,0 +1,219 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+6:I[4431,[],"OutletBoundary"]
+8:I[5278,[],"AsyncMetadataOutlet"]
+a:I[4431,[],"ViewportBoundary"]
+c:I[4431,[],"MetadataBoundary"]
+d:"$Sreact.suspense"
+f:I[7150,[],""]
+:HL["/static-site-rossek/_next/static/css/e2144c73fc9d2947.css","style"]
+0:{"P":null,"b":"c2Lv0mcMeCoPdw-CRfaAg","p":"/static-site-rossek","c":["","wiki","new","brewery"],"i":false,"f":[[["",{"children":["wiki",{"children":[["slug","new/brewery","c"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/static-site-rossek/_next/static/css/e2144c73fc9d2947.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"ru-RU","children":[["$","head",null,{"children":["$","link",null,{"rel":"canonical","href":"https://www.astrums.pro/"}]}],["$","body",null,{"className":"min-h-screen flex flex-col","children":[["$","div",null,{"className":"flex-grow flex flex-col","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"w-full py-4 text-center text-zinc-400 bg-[#0A0514] text-sm","children":["made by ",["$","a",null,{"href":"https://rsek2.ru","className":"text-violet-400 hover:underline transition-colors","children":"Rossek2"}]]}]]}]]}]]}],{"children":["wiki",["$","$1","c",{"children":[null,"$L4"]}],{"children":[["slug","new/brewery","c"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$L7",["$","$L8",null,{"promise":"$@9"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$La",null,{"children":"$Lb"}],null],["$","$Lc",null,{"children":["$","div",null,{"hidden":true,"children":["$","$d",null,{"fallback":null,"children":"$Le"}]}]}]]}],false]],"m":"$undefined","G":["$f",[]],"s":false,"S":true}
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+7:null
+10:I[5035,["624","static/chunks/624-41aa55e84a77885e.js","254","static/chunks/254-146144501e5baca5.js","5","static/chunks/app/wiki/%5B...slug%5D/page-dfc111a6a7ffc861.js"],"WikiArticlePageClient"]
+12:I[622,[],"IconMark"]
+11:T2ddb,
+# 🍺 Варка алкоголя
+
+На сервере присутствует сложная система варки алкоголя и других напитков.
+
+## Как начать варить напитки?
+
+Варка состоит всего из трех этапов: ферментация, дистилляция, настаивание. Не для всех напитков требуются все три этапа, это будет прописано в рецепте. Подробно о каждом из них:
+
+### Ферментация
+
+Для ферментации напитка вам понадобится котел, наполненный водой, под которым расположен открытый огонь (чтобы он не гас, можно зажечь его на незераке). Так же подойдут блок магмы, блок лавы и костер. Котлы можно ставить вплотную друг к другу, главное чтобы под каждым был источник тепла, указанный выше.
+
+<!-- я подругому не вдуплил как сделать прасти -->
+
+<div class="gallery md center">
+  <img src="/barrel1.png" alt="бочка" />
+  <img src="/barrel2.png" alt="бочка" />
+  <img src="/barrel3.png" alt="бочка" />
+  <img src="/barrel4.png" alt="бочка" />
+</div>
+
+Бочки можно располагать вплотную друг к другу, но они не любят, когда рядом стоят доски: могут просто потерять свои свойства бочки, перестать открываться и выбросить все содержимое в качестве айтемов в случайный момент, поэтому здесь нужно быть аккуратным и не строить их вплотную к деревянным стенам.
+
+
+### Свойства напитков и эффекты
+
+Готовые напитки обладают некоторыми свойствами: 
+
+### Качество
+
+Определяется количеством звезд, можно увидеть если навести курсор на напиток в инвентаре/сундуке/бочке. Так же отображается над хотбаром в течение несколькоих секунд после того, как вы что-то выпили. Показывает, насколько правильно вы сварили напиток, т.е. если вы всегда делаете все по рецепту, то будете получать только ★★★★★ (10) напитки. Так же качество напитка влияет на эффекты, получаемые от него: чем менее качественный напиток, тем меньше его нужно для получения негативных эффектов и тем дольше они будут длиться. Всего есть 10 уровней качества: ☆ – первый, ★ – второй, ★☆ – третий и т.д.
+
+### Алкогольность
+
+Чтобы увидеть алкогольность напитка нужно разместить напиток в зельеварке и навести на него курсор. Вы увидите значение в ml (%). Выпивая какие-либо напитки вы получаете соответствующий уровень опьянения, он так же будет отображаться у вас над хотбаром. Чем выше уровень опьянения и ниже качество, тем быстрее вы будете получать негативные эффекты. Алкогольность понижается со временем сама собой. Так же ее можно снизить, выпив ведро молока, закусив хлебом, жаренной треской, лососем, сушенной ламинарией, фруктом хоруса или зачарованным золотым яблоком.
+
+### Эффекты
+
+Негативные эффекты, которые вы можете получить, если выпьете слишком много или слишком крепкий/низкокачественный алкоголь:
+– В первую очередь вам станет сложнее передвигаться, вас будет бросать со стороны в сторону. Если напиться слишком сильно, то двигаться в нужном вам направлении будет практически невозможно.
+– Тошнота. Уровень и длительность эффекта зависят от качества и алкогольности напитка. Если выпить слишком много то вас даже начнет тошнить.
+– Слепота. Длительность эффекта зависит от качества и алкогольности напитка.
+Так же некоторые напитки обладают своими особыми эффектами, информация о них есть в рецептах.
+
+# Рецепты
+
+### Пиво
+
+Ингредиенты: 6 пшеницы  
+Ферментация: 8 минут ферментации  
+Циклы дистилляции: нет  
+Выдержка: 3 года в любой бочке  
+Алкогольность, эффекты: 6 ml, дополнительных эффектов нет  
+
+### Пшеничное пиво
+
+Ингредиенты: 3 пшеницы  
+Ферментация: 8 минут ферментации  
+Циклы дистилляции: нет  
+Выдержка: 2 года в березовой бочке  
+Алкогольность, эффекты: 5 ml, дополнительных эффектов нет  
+
+### Темное пиво
+
+Ингредиенты: 6 пшеницы  
+Ферментация: 8 минут ферментации  
+Циклы дистилляции: нет  
+Выдержка: 8 лет в темнодубовой бочке  
+Алкогольность, эффекты: 7 ml, дополнительных эффектов нет  
+
+### Красное Вино
+
+Ингредиенты: 5 ягод  
+Ферментация: 5 минут ферментации  
+Циклы дистилляции: нет  
+Выдержка: 20 лет в любой бочке  
+Алкогольность, эффекты: 8 ml, дополнительных эффектов нет  
+
+### Медовуха
+
+Ингредиенты: 6 сахарного тростника  
+Ферментация: 3 минуты ферментации  
+Циклы дистилляции: нет  
+Выдержка: 4 года в дубовой бочке  
+Алкогольность, эффекты: 9 ml, дополнительных эффектов нет  
+
+### Яблочная медовуха
+
+Ингредиенты: 6 сахарного тростника, 2 яблока  
+Ферментация: 4 минуты ферментации  
+Циклы дистилляции: 0  
+Выдержка: 4 года в дубовой бочке  
+Алкогольность, эффекты: 11 ml, подводное дыхание II (2:30)  
+
+### Яблочный сидр
+
+Ингредиенты: 14 яблок  
+Ферментация: 7 минут ферментации  
+Циклы дистилляции: 0  
+Выдержка: 3 года в любой бочке  
+Алкогольность, эффекты: 7 ml, дополнительных эффектов нет  
+
+### Яблочный ликер
+
+Ингредиенты: 12 яблок  
+Ферментация: 16 минут ферментации  
+Циклы дистилляции: 3  
+Выдержка: 6 лет в акациевой бочке  
+Алкогольность, эффекты: 14 ml, дополнительных эффектов нет  
+
+### Виски
+
+Ингредиенты: 10 пшеницы  
+Ферментация: 10 минут ферментации  
+Циклы дистилляции: 2  
+Выдержка: 18 лет в еловой бочке  
+Алкогольность, эффекты: 26 ml, дополнительных эффектов нет  
+
+### Ром
+
+Ингредиенты: 18 сахарного тростника  
+Ферментация: 6 минут  
+Циклы дистилляции: 2  
+Выдержка: 14 лет в дубовой бочке  
+Алкогольность, эффекты: 30 ml, огнестойкость (1:40)  
+
+### Водка
+
+Ингредиенты: 10 картофелин  
+Ферментация: 15 минут  
+Циклы дистилляции: 3  
+Выдержка: нет  
+Алкогольность, эффекты: 20 ml, слабость III (0:15)  
+
+### Грибная водка
+
+Ингредиенты: 10 картофелин, 3 мухомора, 3 коричневых гриба;  
+Ферментация: 18 минут  
+Циклы дистилляции: 5  
+Выдержка: нет  
+Алкогольность, эффекты: 18 ml, ночное зрение III (1:20) слабость III (1:20)  
+
+### Джин
+
+Ингредиенты: 9 пшеницы, 1 яблоко, 6 голубых цветков  
+Ферментация: 6 минут  
+Циклы дистилляции: 2  
+Выдержка: нет  
+Алкогольность, эффекты: 20 ml, дополнительных эффектов нет  
+
+### Текила
+
+Ингредиенты: 8 кактусов  
+Ферментация: 15 минут  
+Циклы дистилляции: 2  
+Выдержка: 12 лет в березовой бочке  
+Алкогольность, эффекты: 20 ml, дополнительных эффектов нет  
+
+### Абсент
+
+Ингредиенты: 15 травы  
+Ферментация: 3 минуты  
+Циклы дистилляции: 6  
+Выдержка: нет  
+Алкогольность, эффекты: 42 ml, отравление III (0:25)  
+
+### Зеленый абсент
+
+Ингредиенты: 17 травы, 2 гнилых картофелины  
+Ферментация: 5 минут  
+Циклы дистилляции: 6  
+Выдержка: нет  
+Алкогольность, эффекты: 46 ml, ночное зрение III (1:00) отравление III (0:40)  
+
+### Картофельный суп
+
+Ингредиенты: 5 картофелин, 3 травы  
+Ферментация: 3 минуты  
+Циклы дистилляции: нет  
+Выдержка: нет  
+Алкогольность, эффекты: 0 ml, мгновенно восстанавливает 4 хп (2 сердца)  
+
+### Кофе
+
+Ингредиенты: 12 какао-бобов, 2 ведра молока  
+Ферментация: 2 минуты  
+Циклы дистилляции: нет  
+Выдержка: нет  
+Алкогольность, эффекты: -6 ml, регенерация (0:05) скорость (2:20)
+
+### Эгг-ног
+
+Ингредиенты: 5 яиц, 2 сахара, 1 ведро молока  
+Ферментация: 2 минуты  
+Циклы дистилляции: нет  
+Выдержка: 3 года в любой бочке  
+Алкогольность, эффекты: 10 ml, дополнительных эффектов нет  5:["$","$L10",null,{"mainContent":"$11","pageTitle":"🍺 Варка алкоголя","slug":"new/brewery"}]
+9:{"metadata":[["$","title","0",{"children":"🍺 Варка алкоголя"}],["$","meta","1",{"name":"description","content":"Лучший бесплатный ванильны сервер Minecraft! Подайте заявку в нашем Discord и играйте прямо сейчас!"}],["$","meta","2",{"name":"keywords","content":"Minecraft,сервер,ванильный,Astrum,играть,майнкрафт,приватный сервер,карта,донат,дискорд,1.20,1.21,лучший сервер,русский сервер,без привата,бесплатно,игровое сообщество"}],["$","meta","3",{"name":"robots","content":"index, follow"}],["$","meta","4",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","5",{"rel":"canonical","href":"https://www.astrums.pro/"}],["$","meta","6",{"property":"og:title","content":"Astrum | Ванильный сервер Minecraft"}],["$","meta","7",{"property":"og:description","content":"Лучший бесплатный ванильны сервер Minecraft! Подайте заявку в нашем Discord и играйте прямо сейчас"}],["$","meta","8",{"property":"og:url","content":"https://www.astrums.pro/"}],["$","meta","9",{"property":"og:site_name","content":"Astrum | Ванильный сервер Minecraft"}],["$","meta","10",{"property":"og:image","content":"https://www.astrums.pro/og.png"}],["$","meta","11",{"property":"og:image:alt","content":"Astrum SITE Preview"}],["$","meta","12",{"property":"og:type","content":"website"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:site","content":"@astrum_mc"}],["$","meta","15",{"name":"twitter:title","content":"Astrum | Ванильный сервер Minecraft"}],["$","meta","16",{"name":"twitter:description","content":"Лучший бесплатный ванильны сервер Minecraft! Подайте заявку в нашем Discord и играйте прямо сейчас!"}],["$","meta","17",{"name":"twitter:image","content":"https://www.astrums.pro/og.png"}],["$","link","18",{"rel":"icon","href":"/favicon.ico"}],["$","$L12","19",{}]],"error":null,"digest":"$undefined"}
+e:"$9:metadata"
+13:I[7531,["624","static/chunks/624-41aa55e84a77885e.js","54","static/chunks/54-c485bc096d8edd51.js","531","static/chunks/531-d8bc1d76039e992f.js","936","static/chunks/app/wiki/layout-6249c5c9a9551459.js"],"SiteHeader"]
+14:I[5395,["624","static/chunks/624-41aa55e84a77885e.js","23","static/chunks/app/wiki/page-0f3cbdb22dc6e649.js"],"AnimatedWrapper"]
+15:I[750,["624","static/chunks/624-41aa55e84a77885e.js","54","static/chunks/54-c485bc096d8edd51.js","531","static/chunks/531-d8bc1d76039e992f.js","936","static/chunks/app/wiki/layout-6249c5c9a9551459.js"],"WikiSidebarNav"]
+4:["$","div",null,{"className":"bg-[#0A0514] text-zinc-200 min-h-screen flex flex-col min-h-0 overscroll-contain","children":[["$","$L13",null,{}],["$","main",null,{"className":"container mx-auto px-6 py-8 flex-grow flex flex-col md:flex-row gap-x-8 lg:gap-x-12","children":[["$","aside",null,{"className":"w-full md:w-1/3 lg:w-1/4 md:sticky md:top-24 self-start mb-8 md:mb-0 overscroll-contain","children":["$","$L14",null,{"delay":0.1,"keyProp":"🌎 Основная информация","mode":"always","children":["$","div",null,{"className":"bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 backdrop-blur-lg","children":[["$","h2",null,{"className":"text-2xl font-semibold text-white mb-5","children":"Статьи Вики"}],["$","$L15",null,{"articles":[{"type":"article","slug":"how-play","title":"🎮 Как играть","priority":2},{"type":"category","slug":"new","title":"Нововведения","priority":1000,"children":[{"type":"article","slug":"new/commands","title":"⚙️ Команды","priority":1},{"type":"article","slug":"new/crafts","title":"🔨 Крафты","priority":2},{"type":"article","slug":"new/mechanics","title":"🔧 Разные механики","priority":3},{"type":"article","slug":"new/brewery","title":"🍺 Варка алкоголя","priority":4}]},{"type":"article","slug":"links","title":"🔗 Ссылки","priority":1000}],"indexPageTitle":"🌎 Основная информация"}]]}]}]}],["$","section",null,{"className":"w-full md:w-2/3 lg:w-3/4 overscroll-contain","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}]
